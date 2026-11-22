@@ -1,0 +1,26 @@
+# Data files are intentionally tracked so everyone can use them:
+#   adult.csv, data_source/, *.csv  -> NOT ignored
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+
+# IDE
+.vscode/
+.idea/
